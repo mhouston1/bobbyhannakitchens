@@ -1,0 +1,17 @@
+.modal-zoom{
+    width: 800px;
+    height: 600px;
+    overflow: hidden;
+  }
+  
+.modal-zoom img{
+    transition: 0.5s all ease-in-out;
+}
+  
+.modal-zoom:hover img {
+    -webkit-transform:scale(1.5); /* Safari and Chrome */
+    -moz-transform:scale(1.5); /* Firefox */
+    -ms-transform:scale(1.5); /* IE 9 */
+    -o-transform:scale(1.5); /* Opera */
+    transform:scale(1.5);
+}
