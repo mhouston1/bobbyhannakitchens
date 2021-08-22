@@ -45,3 +45,9 @@ body {
   left: 50%;
   transform: translate(-50%, 80%);
 }
+
+@media  screen and (max-width: 576) {
+  .hero::before{
+    background: url()
+  }
+}
