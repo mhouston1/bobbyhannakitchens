@@ -30,14 +30,16 @@ body {
   margin: 0.625rem;
 }
 .hero-title {
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 600;
   margin-bottom: 0;
+  user-select: none;
 }
 .hero-subtitle {
   font-size: 2rem;
   font-weight: 200;
   margin-top: 1rem;
+  user-select: none;
 }
 .mouse-scroll-icon{
   position: absolute;
