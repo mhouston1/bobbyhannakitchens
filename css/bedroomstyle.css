@@ -45,3 +45,6 @@ body {
   left: 50%;
   transform: translate(-50%, 80%);
 }
+h2{
+  font-size: clamp(4rem, 3.9544rem + 6.72vw, 5.5rem);
+}
