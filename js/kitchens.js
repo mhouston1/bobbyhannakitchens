@@ -1,7 +1,7 @@
 function ViewportWidth() {
     const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
 
-    if(vw < 576) { 
+    if(vw < 760) { 
         /*Rivington*/
         $("#RivingtonCashmere").attr("src","img/Rivington/mobile/Rivington_Cashmere.jpg");
         $("#RivingtonDoveGrey").attr("src","img/Rivington/mobile/Rivington_Dove_Grey.jpg");
