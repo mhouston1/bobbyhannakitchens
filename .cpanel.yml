@@ -14,4 +14,3 @@ deployment:
     - error404.html $DEPLOYPATH
     - favicon.ico $DEPLOYPATH
     - .htaccess $DEPLOYPATH
-    add the individual files
