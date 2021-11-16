@@ -1,0 +1,17 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/bobbdrgz/public_html/
+    - /img/cp -R img $DEPLOYPATH
+    - /css/cp -R css $DEPLOYPATH
+    - /js/cp -R js $DEPLOYPATH
+    - /projects/cp projects -R $DEPLOYPATH
+    - bedrooms.html $DEPLOYPATH
+    - index.html $DEPLOYPATH
+    - kitchens.html $DEPLOYPATH
+    - bedrooms.html $DEPLOYPATH
+    - contactus.html $DEPLOYPATH
+    - error404.html $DEPLOYPATH
+    - favicon.ico $DEPLOYPATH
+    - .htaccess $DEPLOYPATH
+    add the individual files
