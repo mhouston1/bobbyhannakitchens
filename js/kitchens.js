@@ -41,7 +41,7 @@ function ViewportWidth() {
         $("#OdysseyMiraCosa").attr("src","img/Odyssey/mobile/Odyssey_Mira_Cosa_Vertical.jpg");
         $("#OdysseyWhite").attr("src","img/Odyssey/mobile/Odyssey_White_Gloss.jpg");
         
-    } else {
+    } else{
         /*Rivington*/
         $("#RivingtonCashmere").attr("src","img/Rivington/Small/Rivington_Cashmere.jpg");
         $("#RivingtonDoveGrey").attr("src","img/Rivington/Small/Rivington_Dove_Grey.jpg");
@@ -80,6 +80,5 @@ function ViewportWidth() {
         $("#OdysseyDoveGrey").attr("src","img/Odyssey/Small/Odyssey_Dove_Grey.jpg");
         $("#OdysseyMiraCosa").attr("src","img/Odyssey/Small/Odyssey_Mira_Cosa_Vertical.jpg");
         $("#OdysseyWhite").attr("src","img/Odyssey/Small/Odyssey_White_Gloss.jpg");
-        
     }
 };
